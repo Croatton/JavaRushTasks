@@ -15,21 +15,16 @@ public class Solution {
         String fileName = args[0];
         BufferedReader in = new BufferedReader(new FileReader(fileName));
         TreeMap<Character, Integer> map = new TreeMap<>();
-        while (in.ready()) {
-            String line = in.readLine();
-            char[] chars = line.toCharArray();
-            for (char c : chars)
-            {
-                if (map.containsKey(c))
-                {
-                    map.put(c, map.get(c) + 1);
-                } else
-                    {
-                    map.put(c, 1);
-                }
+        int ch;
+        while ((ch = in.read()) != -1) {
+            if(map.containsKey((char)ch)) {
+                map.put((char)ch, map.get((char)ch) + 1);
+            }
+            else {
+                map.put((char)ch, 1);
             }
         }
-        for (Map.Entry<Character, Integer> mp : map.entrySet()) {
+        for (Map.Entry mp : map.entrySet()) {
             System.out.println(mp.getKey() + " " + mp.getValue());
         }
         in.close();
