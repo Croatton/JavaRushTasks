@@ -4,9 +4,6 @@ package com.javarush.task.task09.task0906;
 Логирование стек трейса
 */
 
-
-import java.io.File;
-
 public class Solution {
     public static void main(String[] args) {
         log("In main method");
@@ -14,6 +11,11 @@ public class Solution {
 
     public static void log(String s) {
         //напишите тут ваш код
-
+        try {
+            throw new Exception(s);
+        } catch (Exception e) {
+            System.out.println(e.getStackTrace()[1].getClassName() + ":" + " " +
+                    e.getStackTrace()[1].getMethodName() + ":" + " " + s);
+        }
     }
 }
