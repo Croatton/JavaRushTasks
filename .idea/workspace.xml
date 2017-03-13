@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="12">
-      <change type="DELETED" beforePath="C:\Users\admin\Dropbox\JavaRushTasks\JavaRushTasks\1.JavaSyntax\src\com\javarush\task\task08\task0818\Условие.jrtc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0a93bb95-5b9e-4138-9ee0-e3d153570696" name="Rejected commit: Default" comment="12" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task08/task0818/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2547684">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.64850134">
+              <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -746,7 +745,7 @@
       <workItem from="1489339972104" duration="3203000" />
       <workItem from="1489343205918" duration="1969000" />
       <workItem from="1489396253807" duration="4470000" />
-      <workItem from="1489400955571" duration="3217000" />
+      <workItem from="1489400955571" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1489342548935</created>
@@ -796,11 +795,17 @@
       <option name="project" value="LOCAL" />
       <updated>1489401166629</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="12">
+      <created>1489406617936</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1489406617936</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111570000" />
+    <option name="totallyTimeSpent" value="111618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="6" width="1928" height="1048" extended-state="0" />
@@ -926,7 +931,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task10/task1007/Solution.java" />
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task10/task1007/Условие.jrtc" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/nio/file/SimpleFileVisitor.java" />
     <entry file="file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task31/task3111/Условие.jrtc">
@@ -1205,20 +1209,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task08/task0818/Условие.jrtc">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
       <provider selected="true" editor-type-id="EditorTypeId">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/Quest.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task08/task0818/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task08/task0818/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2547684">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.64850134">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
