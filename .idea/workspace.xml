@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="12">
-      <change type="DELETED" beforePath="C:\Users\admin\Dropbox\JavaRushTasks\JavaRushTasks\1.JavaSyntax\src\com\javarush\task\task06\task0612\Calculator.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0a93bb95-5b9e-4138-9ee0-e3d153570696" name="Rejected commit: Default" comment="12" />
@@ -841,7 +840,7 @@
       <workItem from="1489343205918" duration="1969000" />
       <workItem from="1489396253807" duration="4470000" />
       <workItem from="1489400955571" duration="7270000" />
-      <workItem from="1489418730371" duration="512000" />
+      <workItem from="1489418730371" duration="519000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1489342548935</created>
@@ -921,11 +920,17 @@
       <option name="project" value="LOCAL" />
       <updated>1489419012717</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="12">
+      <created>1489419264390</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1489419264390</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116135000" />
+    <option name="totallyTimeSpent" value="116142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-47" y="42" width="1936" height="1056" extended-state="0" />
