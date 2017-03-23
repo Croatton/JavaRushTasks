@@ -1,17 +1,20 @@
 package com.javarush.task.task31.task3104;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
+import java.util.Objects;
 
 /* 
 Поиск скрытых файлов
 */
 public class Solution extends SimpleFileVisitor<Path> {
+    private List<String> archived = new ArrayList<>();
+    private List<String> failed = new ArrayList<>();
+
     public static void main(String[] args) throws IOException {
         EnumSet<FileVisitOption> options = EnumSet.of(FileVisitOption.FOLLOW_LINKS);
         final Solution solution = new Solution();
@@ -30,8 +33,24 @@ public class Solution extends SimpleFileVisitor<Path> {
         }
     }
 
-    private List<String> archived = new ArrayList<>();
-    private List<String> failed = new ArrayList<>();
+    @Override
+    public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+        if (file.toString().endsWith("rar") || file.toString().endsWith("zip"))
+            archived.add(file.toString());
+
+        Objects.requireNonNull(file);
+        Objects.requireNonNull(attrs);
+        return FileVisitResult.CONTINUE;
+    }
+
+    @Override
+    public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
+        failed.add(file.toString());
+
+        Objects.requireNonNull(file);
+        return FileVisitResult.SKIP_SUBTREE;
+
+    }
 
     public List<String> getArchived() {
         return archived;
