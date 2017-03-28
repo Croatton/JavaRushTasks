@@ -1,4 +1,20 @@
-taskKey="com.javarush.task.task20.task2028.big01"
+taskKey="com.javarush.task.task20.task2028.big02"
+
+Построй дерево(2)
+
+Несмотря на то что наше дерево является потомком класса AbstractList, это не список в привычном понимании.
+В частности нам недоступны принимающие в качестве параметра индекс элемента.
+Такие методы необходимо переопределить и бросить новое исключение типа UnsupportedOperationException.
+
+Вот их список:
+public String get(int index)
+public String set(int index, String element)
+public void add(int index, String element)
+public String remove(int index)
+public List<String> subList(int fromIndex, int toIndex)
+protected void removeRange(int fromIndex, int toIndex)
+public boolean addAll(int index, Collection<? extends String> c)
+
 
 Построй дерево(1)
 
@@ -13,5 +29,6 @@ http://info.javarush.ru/uploads/images/00/04/89/2014/03/21/ee9a9b.jpg
 реализуем интерфейсы Cloneable и Serializable.
 
 Реализацию методов get(int index) и size() пока оставь стандартной.
+
 
 
